@@ -1,0 +1,72 @@
+body {
+    font-family: 'Raleway', sans-serif;
+
+    /* background-image: url("https://source.unsplash.com/random/1920x800"); */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+
+
+}
+
+header {
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    font-weight: 500;
+
+
+}
+
+header nav ul a:hover {
+    color: #7700ff;
+    text-decoration: underline;
+}
+
+span {
+    color: rgb(215, 95, 219);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav ul a {
+    color: #1b1b1b;
+}
+
+header .nav-logo span {
+    color: #7700ff;
+}
+
+@media screen and (max-width:768px) {
+    header nav ul {
+        display: none;
+    }
+}
+
+}
+
+}
