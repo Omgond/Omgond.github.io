@@ -1,6 +1,7 @@
-body {
+body,
+html {
     font-family: 'Raleway', sans-serif;
-
+    scroll-behavior: smooth;
     /* background-image: url("https://source.unsplash.com/random/1920x800"); */
 }
 
@@ -186,5 +187,73 @@ header .nav-logo span {
         width: 200px;
     }
 
+
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+@media screen and (max-width:768px) {
+    .about {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+    }
+
+    .about .image {
+        display: flex;
+    }
+}
+
+.skills .container {
+    display: grid;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+.skills h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 5px solid #7700ff;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 1rem;
+
+}
+
+.skills .skill-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 2rem;
+    flex-wrap: wrap;
+
+    margin: auto;
+}
+
+.skills .skill-wrapper span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300%;
+
+}
+
+.skills .skill-wrapper i {
+    font-size: 0.5rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .skills .skill-wrapper span {
+        font-size: 1.5rem;
+    }
 
 }
